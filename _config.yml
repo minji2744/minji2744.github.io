@@ -15,10 +15,10 @@
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "Seoul, Korea"
+locale                   : "ko-KR"
 title                    : "Mandoo's Blog"
 title_separator          : "-"
-subtitle                 : "studying AI" # site tagline that appears below site title in masthead
+subtitle                 : "v1" # site tagline that appears below site title in masthead
 name                     : "Mandoo, Jung"
 description              : "First Github blog. Posts about AI."
 url                      : "https://minji2744.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -107,11 +107,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Minji, Jung"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "I am studying in Korea"
+  location         : "Seoul, Korea"
+  email            : "minji2744@naver.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
