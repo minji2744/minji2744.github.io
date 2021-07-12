@@ -1,6 +1,6 @@
 # Practicing Data EDA
 ## Table of Contents
-1. [Missing Data](#missing-data)
+1. [Missing Data](https://minji2744.github.io/how-to-data-eda/#1-missing-data)
 2. 
 
 
@@ -29,3 +29,6 @@
   ```
   
   comes handy. <Keep in mind> if you want to replace the data in dataframe, give option: "inplace=True".
+ 
+ </p>
+  
