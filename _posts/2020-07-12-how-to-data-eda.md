@@ -21,11 +21,15 @@
   ```
 
 - replacing missing data
+  say you want to replace NaN to ""(empty space)
   
   ```
-  df.replace
-  df.fillna
+  df.replace(np.nan, "", inplace=True)
+  df.fillna("", inplace=True)
   ```
   
-  comes handy. <Keep in mind> if you want to replace the data in dataframe, give option: "inplace=True".
+  above methods come handy. Keep in mind. if you want to replace the data in dataframe, give option: "inplace=True".
   
+<br/>
+  
+### 99. Examining each columns
