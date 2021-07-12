@@ -10,7 +10,8 @@
 
   In order to process missing data, first you want to find it. Do the following in python shell.<br/>
   
-- finding missing data: 1) import pandas and numpy (to install 'pip install pandas' in CLI-commandline interface-, same with numpy)<br/>
+- finding missing data <br/>
+  1) import pandas and numpy (to install 'pip install pandas' in CLI-commandline interface-, same with numpy)<br/>
   2) if you have the dataset(named df in this article) ready, 
   
   ```
@@ -20,15 +21,15 @@
   df[df.isnull().any(axis=1)]  # and then show any line with missing data)
   ```
 
-- replacing missing data
-  say you want to replace NaN to ""(empty space)
+- replacing missing data <br/>
+  Say, you want to replace NaN to ""(empty space).
   
   ```
   df.replace(np.nan, "", inplace=True)
   df.fillna("", inplace=True)
   ```
   
-  above methods come handy. Keep in mind. if you want to replace the data in dataframe, give option: "inplace=True".
+  Above methods come handy. Keep in mind. If you want to replace the data in dataframe, give option: "inplace=True".
   
 <br/>
   
