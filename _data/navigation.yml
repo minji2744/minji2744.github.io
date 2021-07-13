@@ -1,7 +1,10 @@
 # main links
-main:
-  - title: "Study"
-    url: https://minji2744.github.io
+Categories:
+  - title: "Aiffel"
+    url: 
+    children: 
+      - title: "Weekly Retrospective"
+      url: 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
