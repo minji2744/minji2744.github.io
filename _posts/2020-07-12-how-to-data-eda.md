@@ -1,7 +1,9 @@
 # Practicing Data EDA
-## Table of Contents
+## Table of Contents (keep updating)
 1. [Missing Data](https://minji2744.github.io/how-to-data-eda/#1-missing-data)
-2. 
+2. Duplicated Data
+3. 
+4. EDA Example (with kaggle Titanic)
 
 
 <hr/>
@@ -33,4 +35,8 @@
   
 <br/>
   
+### 98. EDA Example (with kaggle Titanic)
+* short description: predicting whether Titanic's passenger survived.
+* How to: 
+
 ### 99. Examining each columns
