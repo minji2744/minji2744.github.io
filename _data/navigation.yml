@@ -1,10 +1,8 @@
 # main links
 Categories:
   - title: "Aiffel"
-    url: 
-    children: 
-      - title: "Weekly Retrospective"
-      url: 
+    url: https://www.minji2744.github.io
+    # children: 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
