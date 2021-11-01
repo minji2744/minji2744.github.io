@@ -315,7 +315,7 @@ defaults:
   # _deeplearning
   - scope:
       path: "_deeplearning"
-      type: Deeplearning
+      type: deeplearning
     values:
       layout: single
       author_profile: true

@@ -1,7 +1,7 @@
 ---
 title: "deeplearning"
 layout: archive
-permalink: categories/deeplearning
+permalink: categories/#deeplearning
 author_profile: true
 sidebar_main: true
 ---
