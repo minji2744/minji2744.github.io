@@ -111,7 +111,7 @@ author:
   avatar           : /assets/images/mj.png"
   bio              : "I am studying AI / NLP in Korea"
   location         : "Seoul, Korea"
-  email            : "minji2744@naver.com"
+  # email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
