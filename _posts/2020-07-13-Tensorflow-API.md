@@ -1,7 +1,7 @@
 ---
 title: "Studying Tensorflow"
 date: 2020-07-13 08:26:28 -0400
-categories: #deeplearning
+categories: deeplearning
 ---
 
 # About Tensorflow API (Studying Deeplearning)

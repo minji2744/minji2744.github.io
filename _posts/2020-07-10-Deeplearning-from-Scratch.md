@@ -1,7 +1,7 @@
 ---
 title: "Deep Learning from Scratch"
 date: 2020-07-13 08:26:28 -0400
-categories: #deeplearning
+categories: deeplearning
 ---
 
 ## Deep Learning from Scratch
