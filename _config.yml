@@ -108,14 +108,14 @@ analytics:
 # Site Author
 author:
   name             : "Minji, Jung"
-  avatar           : /assets/images/mj.png"
+  avatar           : "/assets/image/mj.png"
   bio              : "I am studying AI / NLP in Korea"
   location         : "Seoul, Korea"
-  # email            : 
+  email            : "minji2744@naver.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "minji2744@naver.com"
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: "minji2744@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://minji2744.github.io"
