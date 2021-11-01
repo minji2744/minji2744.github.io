@@ -1,3 +1,9 @@
+---
+title: "Studying Tensorflow"
+date: 2020-07-13 08:26:28 -0400
+categories: Deep Learning
+---
+
 # About Tensorflow API (Studying Deeplearning)
 
 I'm studying Deeplearning with AIFFEL (school for teaching AI) in Korea. Here I post what I learned about Tensorflow and I will update up-to-date.   
