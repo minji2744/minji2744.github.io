@@ -1,0 +1,311 @@
+/* ---------- Base ---------- */
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #f7f7f5;
+	color: #2b2b2b;
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.65;
+	-webkit-font-smoothing: antialiased;
+}
+
+a {
+	color: #6B7A3D;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#wrap {
+	max-width: 780px;
+	margin: 0 auto;
+	padding: 48px 24px 80px;
+}
+
+/* ---------- Header ---------- */
+
+#title {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 20px;
+	flex-wrap: wrap;
+	padding-bottom: 14px;
+	margin-bottom: 36px;
+}
+
+#title h1 {
+	margin: 0;
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: -0.01em;
+}
+
+#title .korean {
+	font-weight: 400;
+	color: #777;
+	font-size: 20px;
+	margin-left: 6px;
+}
+
+#top_menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	gap: 18px;
+}
+
+#top_menu li a {
+	font-weight: 700;
+	color: #6B7A3D;
+}
+
+#top_menu small {
+	font-weight: 400;
+	color: #888;
+}
+
+/* ---------- Profile ---------- */
+
+.profile {
+	display: flex;
+	gap: 28px;
+	align-items: flex-start;
+	margin-bottom: 44px;
+	flex-wrap: wrap;
+}
+
+#profile_card {
+	flex: 0 0 190px;
+	text-align: center;
+}
+
+#profile_image {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-bottom: 14px;
+}
+
+#profile_items {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	display: inline-block;
+}
+
+#profile_items li {
+	margin-bottom: 8px;
+	font-size: 14px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#profile_items i {
+	width: 18px;
+	color: #999;
+	margin-right: 6px;
+}
+
+#about_me_text {
+	flex: 1 1 320px;
+	min-width: 260px;
+}
+
+#about_me_text p {
+	margin: 0;
+	color: #333;
+}
+
+/* ---------- Section headings ---------- */
+
+h3 {
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	color: #444;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 6px;
+	margin: 40px 0 18px;
+}
+
+/* ---------- News ---------- */
+
+ul.topics {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.topics li {
+	position: relative;
+	padding-left: 18px;
+	margin-bottom: 10px;
+}
+
+ul.topics li::before {
+	content: "\2022";
+	position: absolute;
+	left: 0;
+	color: #6B7A3D;
+	font-weight: 700;
+}
+
+ul.topics strong {
+	color: #6B7A3D;
+}
+
+/* ---------- Publications ---------- */
+
+ul.pub {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.pub li {
+	display: flex;
+	gap: 18px;
+	padding: 18px 0;
+	border-bottom: 1px solid #eaeaea;
+}
+
+ul.pub li:last-child {
+	border-bottom: none;
+}
+
+.paper_thumbnail {
+	flex: 0 0 120px;
+}
+
+.paper_thumbnail img {
+	width: 120px;
+	border-radius: 6px;
+	border: 1px solid #e2e2e2;
+	display: block;
+}
+
+.paper_title {
+	font-size: 16px;
+	color: #1a1a1a;
+}
+
+.paper_title:hover {
+	color: #6B7A3D;
+}
+
+.authors {
+	color: #555;
+	font-size: 14px;
+}
+
+.myname {
+	font-weight: 700;
+	color: #222;
+}
+
+.corresponding {
+	color: #999;
+}
+
+.booktitle {
+	display: inline-block;
+	margin-top: 2px;
+	font-size: 13px;
+	font-weight: 700;
+	color: #6B7A3D;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+}
+
+.resource_link {
+	display: inline-block;
+	margin: 6px 8px 0 0;
+	padding: 2px 10px;
+	font-size: 12px;
+	font-weight: 700;
+	color: #6B7A3D;
+	border: 1px solid #6B7A3D;
+	border-radius: 12px;
+}
+
+.resource_link:hover {
+	background: #6B7A3D;
+	color: #fff;
+	text-decoration: none;
+}
+
+/* ---------- Experiences / Education ---------- */
+
+ul.items {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.items li {
+	position: relative;
+	padding: 10px 0 10px 0;
+	border-bottom: 1px solid #eaeaea;
+}
+
+ul.items li:last-child {
+	border-bottom: none;
+}
+
+ul.items .left {
+	float: right;
+	color: #888;
+	font-size: 14px;
+	font-style: italic;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 560px) {
+	#wrap {
+		padding: 32px 16px 60px;
+	}
+
+	.profile {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	#about_me_text {
+		text-align: left;
+	}
+
+	ul.pub li {
+		flex-direction: column;
+	}
+
+	.paper_thumbnail img {
+		width: 100%;
+		max-width: 220px;
+	}
+
+	ul.items .left {
+		display: block;
+		float: none;
+		margin-top: 2px;
+	}
+}
