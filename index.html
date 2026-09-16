@@ -11,7 +11,7 @@
 
 <link href="https://fonts.googleapis.com/css?family=Lato:400,700&subset=latin,latin-ext" rel='stylesheet' type="text/css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="style.css?v=21">
+<link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" href="https://cloudflare.com">
 
 
@@ -23,43 +23,43 @@
 
 <div id="title">
 <h1>Minji Jung <span class="korean">정민지</span></h1>
-</div>
 
-<div id="title">
-    <img id="profile_image" src="images/minji_photo.jpeg" alt="Minji Jung" />
-    <div id="profile_card">
+<ul id="profile_icons">
+	<li>
+		<a href="https://minji2744.github.io" title="Website" aria-label="Website">
+			<i class="fas fa-home"></i>
+		</a>
+	</li>
+	<li>
+		<a href="mailto:minji30117@gmail.com" title="Email" aria-label="Email">
+			<i class="fas fa-envelope"></i>
+		</a>
+	</li>
+	<li>
+		<a href="https://scholar.google.com/citations?user=VgJMdWUAAAAJ&hl=ko" title="Google Scholar" aria-label="Google Scholar">
+			<i class="fas fa-graduation-cap"></i>
+		</a>
+	</li>
+	<li>
+		<a href="https://drive.google.com/file/d/1LZeLAxwNq7DURRnxG3m4-LcKbJvKgaki/view?usp=sharing" title="CV" aria-label="CV">
+			<i class="fas fa-file-alt"></i>
+		</a>
+	</li>
+</ul>
 
-	<ul id="profile_items">
-		<li>
-			<i class="fas fa-home fa-fw"></i>
-			<a href="https://minji2744.github.io">
-				minji2744.github.io
-			</a>
-		</li>
-		<li>
-			<i class="fas fa-envelope fa-fw"></i>
-			<a href="minji30117@gmail.com">
-				minji30117@gmail.com
-			</a>
-		</li>
-		<li>
-			<i class="fas fa-graduation-cap fa-fw"></i>
-			<a href="https://scholar.google.com/citations?user=VgJMdWUAAAAJ&hl=ko">
-				Google Scholar
-			</a>
-		</li>
-	</ul>
-</div>
 </div>
 
 <div class="content">
+	<div id="profile">
+		<img id="profile_image" src="images/minji_photo.jpeg" alt="Minji Jung" />
 
-<div id="about_me_text">
-	<p>
-		🫒 Hi, I began my career as an NLP researcher, driven by an interest in how machines model language to communicate with humans. 
-        Witnessing AI's growing presence in everyday life, I came to value its responsible use and shifted my research focus to Responsible AI and HCI.
-	</p>
-</div>
+		<div id="about_me_text">
+			<p>
+				🫒 Hi, I began my career as an NLP researcher, driven by an interest in how machines model language to communicate with humans. 
+				Witnessing AI's growing presence in everyday life, I came to value its responsible use and shifted my research focus to Responsible AI and HCI.
+			</p>
+		</div>
+	</div>
 
 <h3>
 	News
@@ -77,23 +77,28 @@
 <ul class="pub">
 	<li>
 		<div class="paper_thumbnail"><img src="research/thumbnails/thumbnail-whodefinesbest.png"></div>
-		<strong><a class="paper_title" href="https://arxiv.org/abs/2604.21769">Who Defines "Best"? Towards Interactive, User-Defined Evaluation of LLM Leaderboards</a></strong>
-		<br>
-		<span class="authors">Minji Jung, Minjae Lee, Yejin Kim, Sarang Choi, and Minsuk Kahng</span>
-		<br>
-		<span class="booktitle">FAccT 2026</span>
-		<br>
-		<a href="https://doi.org/10.1145/3805689.3812353" class="resource_link">DOI</a>
-		<a href="https://arxiv.org/abs/2604.21769" class="resource_link">arXiv</a>
-		<a href="https://arxiv.org/pdf/2604.21769" class="resource_link">PDF</a>
-		<br>
+		<div class="paper_details">
+			<strong><a class="paper_title" href="https://arxiv.org/abs/2604.21769">Who Defines "Best"? Towards Interactive, User-Defined Evaluation of LLM Leaderboards</a></strong>
+			<span class="authors"><strong>Minji Jung</strong>, Minjae Lee, Yejin Kim, Sarang Choi, and Minsuk Kahng</span>
+			<span class="booktitle">FAccT 2026</span>
+			<div class="resource_links">
+				<a href="https://doi.org/10.1145/3805689.3812353" class="resource_link">DOI</a>
+				<a href="https://arxiv.org/abs/2604.21769" class="resource_link">arXiv</a>
+				<a href="https://arxiv.org/pdf/2604.21769" class="resource_link">PDF</a>
+			</div>
+		</div>
 	</li>
 </ul>
 
 <h3>Experiences</h3>
 <ul class="items">
 	<li>
-		<strong>NCSOFT</strong>, Pangyo, South Korea
+		<strong>Upstage</strong>, South Korea
+		<span class="left">2025</span>
+		<br>Research Engineer</a>
+	</li>
+	<li>
+		<strong>NCSOFT</strong>, South Korea
 		<span class="left">2022-2024</span>
 		<br>Research Engineer</a>
 	</li>
@@ -104,13 +109,13 @@
 <ul class="items">
 	<li>
 		<strong>M.S.</strong> in Computer Science and Engineering,
-		Yonsei University, South Korea
+	</br>Yonsei University, South Korea
 		<span class="left">2025-Present</span>
 		(Advisor: <a href="https://minsuk.com">Minsuk Kahng</a>)
 	</li>
 	<li>
 		<strong>B.A.</strong> in Economics,
-		Seoul National University, South Korea
+	</br>Seoul National University, South Korea
 		<span class="left">2015-2020</span>
 	</li>
 </ul>
